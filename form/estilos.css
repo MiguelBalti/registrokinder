@@ -1,0 +1,84 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(fondo.jpg);
+    background-position: absolute;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+    /*SOLID BACKGROUND*/
+    /*background-color: #880e4f;*/
+
+}
+
+
+.form-style {
+    
+    margin: 1.4rem 0;
+    padding: 1rem 1rem 20px;
+    background-color: #f1e8e8;
+    box-shadow: 0 12px 42px rgba(143, 58, 58, 0.9), 0 12px 12px rgba(143, 58, 58, 0.9);
+    margin: 2.8rem 12rem;
+    padding: 1rem 1rem 20px;
+}
+
+.form-style h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+   
+
+}
+
+
+.form-style .botonsc {
+    /*width: 15%;*/
+    border-radius: 5px;
+    background: #880e4f ;
+    padding: 10px;
+    border: none;
+    padding: 10;
+    color: white;
+    margin: 16px 0;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form-style .botonsfin {
+    border-radius: 5px;
+    background: #880e4f ;
+    padding: 10px;
+    border: none;
+    padding: 10;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-style .botonsfin:hover {
+    box-shadow: 0 12px 42px rgba(101, 12, 12, 0.9), 0 12px 12px rgba(101, 12, 12, 0.9);
+
+}
+
+.botonsin{
+    border-radius: 5px;
+    background: #880e4f ;
+    padding: 10px;
+    border: none;
+    padding: 10;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    button
+}
+
+
+  

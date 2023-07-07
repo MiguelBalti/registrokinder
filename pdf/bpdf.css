@@ -1,0 +1,91 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body{
+    margin-top: 40px;
+    background-image: url(./escom.jfif);
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    align-items: center;
+    background-position: absolute;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.formulario{
+    background-color: #952f57;
+    box-shadow: #000000;
+    padding: 10px;
+    border-radius: 1rem;
+    float: center;
+    margin: 10% 20%;
+
+    width: 50%;
+
+    
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile-screen{
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 300px;
+    height: 500px;
+    background: rgba(3, 3, 3, 0.7);
+    overflow: hidden;
+  }
+
+@media (max-width: 400px){
+    .formulario{
+        width: 90%;
+    }
+}
+
+.inputText{
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    height: .2rem;
+    text-align: center;
+}
+
+
+.boton{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    text-align: center;
+    border: none;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #f9fd89;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    float: center;
+}
